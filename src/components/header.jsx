@@ -4,9 +4,9 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-10 placeholder-yellow-900">
+    <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-16">
       <a href="/">
-        <span class="text-3xl text-[#404C99] font-bold">Agency</span>
+        <span class="text-3xl text-[#404C99] font-bold pl-16 max-sm:pl-8">Agency</span>
       </a>
       <nav class="bg-[#ECF7FB] font-sans justify-between border-gray-200 px-4 lg:px-6 py-12">
         <nav>
@@ -66,7 +66,7 @@ export default function Header() {
             </div>
           </section>
 
-          <ul className="DESKTOP-MENU hidden space-x-5 lg:flex text-xl text-[#183B56] absolute left-40 px-16 top-10 ">
+          <ul className="DESKTOP-MENU hidden space-x-5 lg:flex text-xl text-[#183B56] left-40 px-10 top-10 max-2xl:pr-[240px] max-xl:pr-10">
             <li>
               <a href="/about">About</a>
             </li>
@@ -107,7 +107,7 @@ export default function Header() {
       <div>
         <button
           className="flex max-md:visible max-sm:invisible max-md:mr-[-10px] max-sm:mr-80 space-x-8 items-center text-blue-950 hover:bg-gray-50 focus:ring-4 focus:ring-blue-950 
-                font-medium rounded-lg text-sm px-3 lg:px-8 py-3 lg:py-4 mr-4 border-[1.8px] border-blue-950"
+                font-medium rounded-lg text-sm px-3 lg:px-8 py-3 lg:py-4 mr-3 border-[1.8px] border-blue-950"
         >
           <a href="#">Log in</a>
         </button>
@@ -139,7 +139,7 @@ export default function Header() {
       </button>
       <div class="image-container">
         <div
-          className="px-7 h-auto w-[550px] mt-[-510px] ml-[500px] max-lg:ml-[270px] max-lg:mt-[-550px] max-md:mt-[-510px] max-sm:mt-[-540px] min-md:h-auto
+          className="px-7 h-auto w-[550px] mt-[-465px] ml-[500px] max-lg:ml-[270px] max-lg:mt-[-520px] max-md:mt-[-510px] max-sm:mt-[-540px] min-md:h-auto
         max-md:w-[300px] max-md:ml-[130px] max-sm:ml-[130px]"
         >
           <img
@@ -148,18 +148,18 @@ export default function Header() {
             alt="image description"
           ></img>
         </div>
-        <div class="box-border border-white rounded-md drop-shadow-xl h-[90px] w-[180px] text-[15px] p-4 border-2 bg-white z-10 px-3 pt-15 mt-[-350px] ml-[550px] max-lg:ml-[340px] max-lg:mt-[-400px] max-md:mt-[-200px] max-sm:mt-[-240px] min-md:h-auto
+        <div class="box-border border-white rounded-md drop-shadow-xl h-[90px] w-[180px] text-[15px] p-4 border-2 bg-white z-10 px-3 pt-15 mt-[-350px] ml-[550px] max-xl:mt-[-440px] max-xl:ml-[530px] max-lg:ml-[340px] max-lg:mt-[-400px] max-md:mt-[-200px] max-sm:mt-[-240px] min-md:h-auto
         max-md:w-[130px] max-md:ml-[60px] max-md:text-sm">
         ⭐⭐⭐⭐⭐<br></br>
         20k+ Customer Review
       </div>
-      <div class="box-border border-white rounded-md drop-shadow-xl h-[90px] w-[160px] text-[15px] p-4 border-2 bg-white z-10 px-4 pt-15 ml-[1000px] mt-[-20px] max-lg:ml-[730px] max-lg:mt-[80px] max-md:mt-[-30px] max-sm:mt-[60px] max-sm:ml-[40px] min-md:h-auto
+      <div class="box-border border-white rounded-md drop-shadow-xl h-[90px] w-[160px] text-[15px] p-4 border-2 bg-white z-10 px-4 pt-15 ml-[1000px] mt-[-20px] max-xl:ml-[600px] max-xl:mt-[20px] max-lg:ml-[630px] max-lg:mt-[140px] max-md:mt-[-30px] max-sm:mt-[60px] max-sm:ml-[40px] min-md:h-auto
         max-md:w-[120px] max-md:h-[80px] max-md:ml-[450px] max-md:text-sm">
         Project Done<br></br>
         3,258 ↗️
       </div>
       <div class="circle-1 rounded-full w-[400px] h-[400px] border border-gray-400 -z-10
-      ml-[650px] mt-[-260px] max-lg:ml-[430px] max-lg:mt-[-300px] max-md:mt-[-200px] max-sm:mt-[-240px] max-sm:ml-[40px] min-md:h-auto
+      ml-[650px] mt-[-260px] max-xl:mt-[-200px] max-lg:ml-[430px] max-lg:mt-[-300px] max-md:mt-[-200px] max-sm:mt-[-240px] max-sm:ml-[40px] min-md:h-auto
       max-md:w-[300px] max-md:h-[300px] max-md:ml-[170px] max-md:text-sm"></div>
       <div class="circle-2 rounded-full w-[300px] h-[300px] border border-gray-400 -z-10
       ml-[700px] mt-[-360px] max-lg:ml-[480px] max-lg:mt-[-340px] max-md:mt-[-260px] max-sm:mt-[-260px] max-sm:ml-[79px] min-md:h-auto
