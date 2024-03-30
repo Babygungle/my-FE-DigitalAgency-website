@@ -6,7 +6,7 @@ export default function Services() {
       <h1 className="text-3xl font-bold pt-[160px] pb-7 text-center">
         Why Choose <br></br>Agency!
       </h1>
-      <div className="grid grid-cols-3 grid-flow-col max-md:flex max-md:flex-col max-md:m-7 bg-white m-4 h-[300px] gap-10 px-6 pb-[150px]">
+      <div className="grid grid-cols-3 grid-flow-col max-md:flex max-md:flex-col max-md:m-7 bg-white m-4 h-[300px] gap-10 px-10 pb-[150px]">
         <div className="rounded-lg shadow-xl max-md:shadow-md px-5 py-5">
           <div class="box-border bg-[#46c9f42b] rounded-lg h-16 w-16 p-4 mb-5">
             <svg
