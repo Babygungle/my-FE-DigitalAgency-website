@@ -220,11 +220,11 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          </div>
+        </div>
       </div>
       <p className="text-md text-[#5A7184] pb-10 mt-[-50px] ml-6 lg:hidden md:hidden">
-          Copyright© Agency. All right reserved
-        </p>
+        Copyright© Agency. All right reserved
+      </p>
     </div>
   );
 }
